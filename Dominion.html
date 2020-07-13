@@ -1,0 +1,40 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Dominion</title>
+            <link rel ="stylesheet" type="text/css" href=Dominion.css>
+            </head>
+            <body>
+                <p id="myHand"></p>
+                <p id="myTreasure"></p>
+                <p id="myActions"></p>
+                <p id="myBuys"></p>
+                <p id="myDraw"></p>
+                <p id="myDiscard"></p>
+                <p id="myVictoryPoints"></p>
+                <p id="displaySelected"></p>
+                  <div class = "button" id = "showDraw"> Show Draw 
+                </div>
+                <div class = "button" id = "showDiscardButton"> Show Discard </div>
+                <div class = "button" id = "showDeckButton"> Show Deck </div>
+                <div class = "button" id = "endTurnButton"> End Turn </div>
+                <div class = "button" id = "buyCard">Buy Card</div>
+                
+                <div id="Modal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="pile"> </p>  
+                  </div>
+                </div>
+                <div class = "cardPile" id="copper">Copper</div>
+                <div class = "cardPile" id="silver">Silver</div>
+                <div class = "cardPile" id="gold">Gold</div>
+                <div class = "cardPile" id="estate">Estate</div>
+                <div class = "cardPile" id="duchy">Duchy</div>
+                <div class = "cardPile" id="province">Province</div>
+                <script src="Dominion.js"></script>
+            </body>
+
+    </html>

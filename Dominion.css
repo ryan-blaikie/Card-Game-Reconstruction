@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, Verdana;
+    color: white;
+    white-space: pre-wrap;
+  }
+  
+  #myHand{
+    font-size: 16px;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    margin-top: -1%;
+  }
+  
+  #myTreasure{
+    font-size: 16px;
+    position: absolute;
+    left: 37%;
+    top: 65%;
+  }
+  
+  #myBuys{
+    font-size: 16px;
+    position: absolute;
+    left: 37%;
+    top: 70%;
+  }
+  
+  #myActions{
+    font-size: 16px;
+    position: absolute;
+    left: 37%;
+    top: 75%;
+  }
+  
+  #myDraw{
+    position: absolute;
+    top: 78%;
+    left: 3%;
+  }
+  #myDiscard{
+    position: absolute;
+    left: 85%;
+    top: 78%;
+  }
+  
+  #myVictoryPoints{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+  }
+  
+  #displaySelected{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+  }
+  
+  .cardPile{
+    position: absolute;
+    background: silver;
+    width: 80px;
+    height: 100px;
+    top: 5%;
+    border-radius: 10px;
+    outline: 1px;
+    padding: 1px;
+    text-align: center;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+  }
+  
+  .cardPile:hover{
+    background: gray;
+  }
+  
+  .selected{
+    background: gray;
+  }
+  
+  #copper{left: 20%;}
+  #silver{left: 30%;}
+  #gold{left: 40%;}
+  #estate{left: 50%;}
+  #duchy{left: 60%;}
+  #province{left: 70%;}
+  
+  .button{
+    
+    background: olive;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    width: 90px;
+    height: 7px;
+    padding: 12px;
+    outline: 0;
+    border-radius: 15px;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gold;
+    opacity: .9;
+  }
+  
+  .button:hover{
+    opacity: 1.0;
+  }
+  
+  #showDraw{
+    top: 90%;
+    left: 2%;
+  }
+  
+  #showDiscardButton{
+    width: 90px;
+    height: 7px;
+    padding: 12px;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+  }
+  
+  #showDeckButton{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+  }
+  
+  #endTurnButton{
+    background: olive;
+    color: white;
+    font-size: 14px;
+    width: 75px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+  }
+  
+  #buyCard{
+    bottom: 2%;
+    left: 15%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: gray;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
